@@ -1,4 +1,4 @@
-
+import { useNavigate } from "react-router-dom";
 import { ArrowRight, Phone, Play, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
@@ -41,6 +41,7 @@ const AnimatedBackground = () => {
 };
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section className="min-h-screen bg-black text-white flex flex-col justify-center relative overflow-hidden">
       <AnimatedBackground />
@@ -71,12 +72,14 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-20">
             <Button 
               size="lg" 
+              onClick={() => navigate("/demo")} // ✅ THIS IS WHAT TRIGGERS ROUTING
               className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white border-0 text-lg px-8 py-6 h-16 rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25 hover:scale-[1.02]"
             >
               <Phone className="mr-3 h-5 w-5" />
               Book a Demo
               <ArrowRight className="ml-3 h-5 w-5" />
             </Button>
+
             
             <Button 
               size="lg" 
