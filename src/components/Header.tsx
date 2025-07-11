@@ -65,7 +65,10 @@ const Header = () => {
         style={{ marginLeft: 'auto', marginRight: 'auto' }}
       >
         <nav className="flex items-center justify-between">
-          <div className="text-2xl font-bold gradient-text">Spear AI</div>
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="Spear AI Logo" className="h-10 w-auto" />
+            <span className="text-2xl font-bold text-blue-500">Blade AI</span>
+          </div>
           <div className="hidden md:flex items-center space-x-8">
             <a href="#how-it-works" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">
               How it works
