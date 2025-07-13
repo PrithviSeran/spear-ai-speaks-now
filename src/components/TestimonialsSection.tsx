@@ -4,19 +4,19 @@ import { Star, Quote, ChevronLeft, ChevronRight } from "lucide-react";
 const testimonials = [
   {
     name: "Alex Johnson",
-    title: "Founder, TechFlow",
-    quote: "Spear AI has transformed our customer support. The AI voice agents are incredibly natural and have saved us countless hours!",
+    title: "Founder, Morado Development",
+    quote: "Blade AI has transformed our customer support. The AI voice agents are incredibly natural and have saved us countless hours!",
     avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     rating: 5,
-    company: "TechFlow"
+    company: "Morado Development"
   },
   {
     name: "Priya Patel",
-    title: "COO, HealthSync",
+    title: "COO, Al-Afif Perfumes",
     quote: "We never miss a lead now. The 24/7 AI call handling is a game changer for our business.",
     avatar: "https://randomuser.me/api/portraits/women/44.jpg",
     rating: 5,
-    company: "HealthSync"
+    company: "Al-Afif Perfumes"
   },
   {
     name: "Michael Chen",
@@ -33,14 +33,6 @@ const testimonials = [
     avatar: "https://randomuser.me/api/portraits/women/68.jpg",
     rating: 5,
     company: "GrowthLab"
-  },
-  {
-    name: "David Rodriguez",
-    title: "CEO, CloudVenture",
-    quote: "ROI was visible within the first week. This technology is the future of customer engagement.",
-    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
-    rating: 5,
-    company: "CloudVenture"
   }
 ];
 
@@ -107,7 +99,7 @@ const TestimonialsSection = () => {
           </h2>
           
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Real results from real businesses using Spear AI to automate and elevate their customer experience.
+            Real results from real businesses using Blade AI to automate and elevate their customer experience.
           </p>
         </div>
 

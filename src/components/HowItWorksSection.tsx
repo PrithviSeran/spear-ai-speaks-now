@@ -78,7 +78,7 @@ const HowItWorksSection = () => {
     },
     {
       id: 3,
-      phase: "Information Gathering",
+      phase: "Info Gathering",
       title: "Needs Assessment",
       description: "AI collects relevant information and qualifies the lead",
       icon: Bot,

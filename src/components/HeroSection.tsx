@@ -92,16 +92,7 @@ const HeroSection = () => {
           </div>
           
           {/* Social Proof */}
-          <div className="flex flex-col items-center gap-8">
-            <div className="flex items-center gap-3 text-sm text-gray-400">
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <span>Trusted by 500+ businesses</span>
-            </div>
-            
+          <div className="flex flex-col items-center gap-8">            
             <div className="grid grid-cols-3 gap-16 max-w-2xl mx-auto">
               <div className="text-center">
                 <div className="text-4xl font-bold text-white mb-2">24/7</div>
